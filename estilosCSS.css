@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    max-width:1320px;
+    margin: auto;
+    background-color: rgb(178, 120, 184);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: rgb(119, 59, 124);
+
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical > li:hover{
+    background-color: rgb(185, 22, 177);
+}
+
+.menu-vertical > li> button:hover{
+    background-color: rgb(7, 7, 7);
+
+}
+
+
+
+.menu-vertical li a{
+    display:block;
+    color: rgb(184, 39, 147);
+    padding: 20px 20px 20px 25px;
+    text-decoration: none;
+}
+.menu-vertical > li > a{
+    color: brown;
+}
+
+
+
+#h1{
+    text-align: center;
+    margin: 15px auto;
+    text-shadow: rgb(83, 4, 79) 3px 3px 3px;
+   color: rgb(216, 106, 210);
+}
+
+
+body{
+    background-image: url(imagenes/morado.jpg);
+    background-size: cover;
+}
+
+#titulo{
+    color: rgb(46, 49, 51);
+}
+li{
+    display: inline;
+}
+
+figure{
+    display:flex;
+    justify-content: center;
+}
+
+#boton{
+   display: flex;
+   justify-content:right;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+   
+}
+
+h1{
+    text-align: center;
+    margin: 15px auto;
+    text-shadow: rgb(12, 12, 12) 3px 3px 3px;
+   color: rgb(226, 49, 173);
+}
+
+button{
+    display:inline-block;
+    color: rgb(189, 4, 189);
+    padding:10px;
+   
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 5px;
+    
+}
+
