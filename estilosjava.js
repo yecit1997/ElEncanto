@@ -1,5 +1,5 @@
 
-var confianza, equipo, dialogo, convivencia;
+var confianza, equipo, dialogo, convivencia,k;
 
 function comenzar(){
     confianza=document.getElementById("confianza");
@@ -18,7 +18,8 @@ function comenzar(){
 }
 
 function Mconfianza(){
-    window.open("http://127.0.0.1:5500/convivencia.html")
+    window.open("https://yecit1997.github.io/confianza/")
+    
     
 }
 
