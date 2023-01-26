@@ -1,5 +1,5 @@
 
-var confianza, equipo, dialogo, convivencia,k;
+var confianza, equipo, dialogo, convivencia;
 
 function comenzar(){
     confianza=document.getElementById("confianza");
