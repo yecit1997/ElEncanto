@@ -18,8 +18,11 @@ function comenzar(){
 }
 
 function Mconfianza(){
-    window.open("https://yecit1997.github.io/confianza/")
+
     
+
+    window.open("https://yecit1997.github.io/confianza/")
+
     
 }
 
